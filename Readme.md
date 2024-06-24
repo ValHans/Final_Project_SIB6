@@ -9,5 +9,5 @@
     - (mongodb_loader, finnhub_loader, finnhub_mongodb_loader)
 
 5. Result from trying this project
-    - ![Result 1](screenshot\sentiment_news_analysis.jpeg)
-    - ![Result 2](screenshot\dags_sentiment_analysis.jpeg)
+    - ![Result 1](https://github.com/ValHans/Final_Project_SIB6/blob/master/screenshot/sentiment_news_analysis.jpeg)
+    - ![Result 2](https://github.com/ValHans/Final_Project_SIB6/blob/master/screenshot/dags_sentiment_analysis.jpeg)
