@@ -17,7 +17,7 @@ def get_mongo_client(mongo_uri):
         return None
 
 def load(database, collection):
-    mongo_uri = "mongodb+srv://temp_user:temp_user123@cluster01.hlaum48.mongodb.net/?retryWrites=true&w=majority&appName=Cluster01"
+    mongo_uri = "mongodb+srv://<your username>:<your password>@<your mongodb endpoint>"
     if not mongo_uri:
         print("MONGO_URI not set in environment variables")
 
@@ -30,7 +30,7 @@ def load(database, collection):
     return col
 
 def get_data(database, collection):
-    mongo_uri = "mongodb+srv://temp_user:temp_user123@cluster01.hlaum48.mongodb.net/?retryWrites=true&w=majority&appName=Cluster01"
+    mongo_uri = "mongodb+srv://<your username>:<your password>@<your mongodb endpoint>"
     if not mongo_uri:
         print("MONGO_URI not set in environment variables")
 
